@@ -1,0 +1,19 @@
+{
+  "name": "temtem-db-fix",
+  "type": "commonjs",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "dev": "ts-node ./index.ts"
+
+  },
+  "dependencies": {
+    "node": "^22.3.0",
+    "ts-node": "^10.9.2"
+  }
+}
